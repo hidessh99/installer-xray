@@ -1,21 +1,8 @@
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=SCRIPT+XRAY+BBX" />
-</p>
 
 # XRAY BBX
 - ***Script XRAY Multi Port 443/80 By RamaGans ID***
 - ***SCRIPT UNTUK MEMBUAT SERVER VPN***
 
-<p align='center'><img src="https://raw.githubusercontent.com/fisabiliyusri/.github/main/kotori2.png?r=82s" width="150" alt="Hayuk"/></a></p>
-
-
-<div height='45' align="center">
-<h2>Contact me: <br>
-<a href="https://facebook.com/ramagans.id"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" height='50'> </a>
-<h2>Support me: <br>
-<a href="https://sociabuzz.com/bbxhost69/donate"> <img src="https://cdn.trakteer.id/images/embed/trbtn-red-6.png" height='50'> </a>
-</h2>
-</div>
 #
 
 # FITUR XRAY TLS
