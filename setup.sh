@@ -28,6 +28,10 @@ echo "IP=" >> /var/lib/crot/ipvps.conf
 cd
 #install tools/alat
 wget https://raw.githubusercontent.com/BrebesBlackXploit/xray/main/install-tools.sh && chmod +x install-tools.sh && ./install-tools.sh
+
+apt remove apache2 -y
+echo "0 5 * * * root clear-log && restart-xray" >> /etc/crontab
+
 #
 #Instal Xray
 wget https://raw.githubusercontent.com/BrebesBlackXploit/xray/main/install-xray.sh && chmod +x install-xray.sh && ./install-xray.sh
@@ -35,6 +39,14 @@ wget https://raw.githubusercontent.com/BrebesBlackXploit/xray/main/install-xray.
 wget https://raw.githubusercontent.com/BrebesBlackXploit/xray/main/menu/updatedll.sh && chmod +x updatedll.sh && ./updatedll.sh
 #
 #SELESAI
+
+cd
+certv2ray
+restart-xray
+
+
+
+
 echo " "
 echo "Installation has been completed!!"echo " "
 echo "============================================================================" | tee -a log-install.txt
